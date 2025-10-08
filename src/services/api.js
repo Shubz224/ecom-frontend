@@ -2,7 +2,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://your-backend-url.railway.app/api' // Replace with your Railway URL
+  ? 'https://redis-backend-seyz.onrender.com/api' // Replace with your Railway URL
   : 'http://localhost:5000/api';
 
 // Create axios instance
